@@ -1,4 +1,10 @@
 .venv
 .DS_Store
 Data/
-runs/
+# For YOLO Training:
+yolo_training/
+yolo_dataset_split/
+
+# IDE/Editors
+.idea/
+.vscode/

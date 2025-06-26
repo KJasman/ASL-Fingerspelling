@@ -1,9 +1,10 @@
 .venv
 .DS_Store
-Data/
+YOLO/data/
 # For YOLO Training:
-yolo_training/
+ASL-fingerspelling/
 yolo_dataset_split/
+yolo_testing/
 
 # IDE/Editors
 .idea/

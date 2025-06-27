@@ -2,7 +2,6 @@
 .DS_Store
 YOLO/data/
 # For YOLO Training:
-ASL-fingerspelling/
 yolo_dataset_split/
 yolo_testing/
 

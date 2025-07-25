@@ -1,0 +1,20 @@
+
+Benchmarks complete for yolov8n.pt on coco8.yaml at imgsz=640 (227.02s)
+Benchmarks legend:  - ✅ Success  - ❎ Export passed but validation failed  - ❌️ Export failed
+                   Format Status❔  Size (MB) metrics/mAP50-95(B) Inference time (ms/im)     FPS
+0                 PyTorch       ✅        6.1                 0.0                  12.64    79.1
+1             TorchScript       ✅       11.9                 0.0                   2.28  438.32
+2                    ONNX       ✅       11.6                 0.0                   3.59  278.35
+3                OpenVINO       ❌        0.0                   -                      -       -
+4                TensorRT       ✅       21.1                 0.0                   1.58  630.94
+5                  CoreML       ❌        0.0                   -                      -       -
+6   TensorFlow SavedModel       ❌        0.0                   -                      -       -
+7     TensorFlow GraphDef       ❌        0.0                   -                      -       -
+8         TensorFlow Lite       ❌        0.0                   -                      -       -
+9     TensorFlow Edge TPU       ❌        0.0                   -                      -       -
+10          TensorFlow.js       ❌        0.0                   -                      -       -
+11           PaddlePaddle       ❌        0.0                   -                      -       -
+12                    MNN       ❌        0.0                   -                      -       -
+13                   NCNN       ✅       11.7                 0.0                  21.71   46.06
+14                    IMX       ❌        0.0                   -                      -       -
+15                   RKNN       ❌        0.0                   -                      -       -

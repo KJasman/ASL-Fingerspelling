@@ -1,6 +1,6 @@
 .venv
 .DS_Store
-YOLO/data/
+YOLO/asl_dataset/
 # For YOLO Training:
 yolo_dataset_split/
 yolo_testing/
